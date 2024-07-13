@@ -21,8 +21,8 @@ body{
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 .container.disable .editor-panel,
-.container.disable .controls .reset-filter,
-.container.disable .controls .save-img{
+.container.disable .controls .clearFilters,
+.container.disable .controls .saveImage{
   opacity: 0.5;
   pointer-events: none;
 }
@@ -132,19 +132,19 @@ body{
   transition: all 0.3s ease;
   text-transform: uppercase;
 }
-.controls .reset-filter{
+.controls .clearFilters{
   color: #6C757D;
   border: 1px solid #6C757D;
 }
-.controls .reset-filter:hover{
+.controls .clearFilters:hover{
   color: #fff;
   background: #6C757D;
 }
-.controls .choose-img{
+.controls .chooseImage{
   background: #6C757D;
   border: 1px solid #6C757D;
 }
-.controls .save-img{
+.controls .saveImage{
   margin-left: 5px;
   background: #5372F0;
   border: 1px solid #5372F0;
@@ -174,7 +174,7 @@ body{
   .controls .row{
     width: 100%;
   }
-  .controls .row .save-img{
+  .controls .row .saveImage{
     margin-left: 0px;
   }
 }
