@@ -1,3 +1,4 @@
+
 const imgInput = document.querySelector(".imgInput"),
       filterButtons = document.querySelectorAll(".filter button"),
       filterLabel = document.querySelector(".filter-info .name"),
